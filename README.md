@@ -32,7 +32,7 @@ To access Jenkins, open a web browser and go to the public IP address of your EC
 ### Step 7: Set up Jenkins
 Once you have accessed Jenkins, you will need to follow the setup wizard to configure Jenkins. You will be asked to create an admin user and choose your plugins. You can choose the plugins you want or skip this step and install them later.
 
-To install Jenkins, an admin password is required, we will connect to that password in EC2 and we connect  EC2 and get the password.
+To install Jenkins, an admin password is required, we will connect to  EC2 and  get the password.
 
 `ssh -i "my-key.pem" ec2-user@ec2-3-236-204-248.compute-1.amazonaws.com` example  code 
 
