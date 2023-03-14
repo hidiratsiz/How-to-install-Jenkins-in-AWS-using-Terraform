@@ -17,7 +17,9 @@ This code creates an EC2 instance using the ami specified (Amazon Linux 2 in thi
 After you have defined your Terraform configuration, you can apply it to create your Jenkins instance. Run the following commands:
 
 `terraform init `
+
 `terraform plan -out main.tfplan`
+
 `terraform apply main.tfplan`
 
 <img src="terraform-init.png" alt="complete" width="800">
@@ -39,7 +41,14 @@ To install Jenkins, an admin password is required, we will connect to  EC2 and  
 <img src="connectEC2.png" alt="complete" width="800">
 
 
+After EC2 is connected, we run the following code in the terminal and open the password in the editor.
+
+Let's copy this password and throw it on the setup screen and start the installation.
+
 `sudo nano /var/lib/jenkins/secrets/initialAdminPassword`
+
+<img src="jenkins-started.png" alt="complete" width="800">
+
 
 <img src="jenkins-setup.png" alt="complete" width="800">
 
