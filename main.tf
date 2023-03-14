@@ -46,7 +46,7 @@ resource "aws_instance" "jenkins-server" {
   tags = {
     Name = var.tag
   }
-  user_data = file("./jenkins.sh")
+  user_data = file("jenkins.sh")
 }
 
 resource "aws_security_group" "tf-jenkins-sec-gr" {
