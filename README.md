@@ -19,9 +19,9 @@ After you have defined your Terraform configuration, you can apply it to create 
 `terraform init 
 terraform plan -out main.tfplan
 terraform apply main.tfplan`
-<img src="terraform-init.png alt="complete" width="400">
-<img src="terraform-plan.png alt="complete" width="400">
-<img src="terraform-apply.png alt="complete" width="400">
+<img src="terraform-init.png" alt="complete" width="800">
+<img src="terraform-plan.png" alt="complete" width="800">
+<img src="terraform-apply.png" alt="complete" width="800">
 
 Terraform will initialize and apply your configuration. Once it's finished, it will output the public IP address of your new EC2 instance.
 
@@ -37,4 +37,4 @@ Once you have accessed Jenkins, you will need to follow the setup wizard to conf
 `sudo nano /var/lib/jenkins/secrets/initialAdminPassword`
 
 Create First Admin User and complete the first setup
-<img src="complete.png" alt="complete" width="400">
+<img src="complete.png" alt="complete" width="800">
